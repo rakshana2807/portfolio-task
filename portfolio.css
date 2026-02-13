@@ -1,0 +1,127 @@
+body {
+  
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* MAIN TITLE */
+h1 {
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* SECTION STYLE */
+section {
+    margin: 30px;
+    padding: 20px;
+    background: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+    border-radius: 15px;
+   
+}
+
+/* HEADINGS */
+h2 {
+    text-align: center;
+    background-color: rgb(155, 71, 234);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+/* HOME LAYOUT */
+.home-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* DP */
+.dp {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(120, 23, 210);
+   
+}
+
+.dp img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* TEXT */
+.home-text {
+    max-width: 500px;
+    color: blueviolet;
+}
+
+/* LIST */
+ul {
+   
+    padding-left: 20px;
+}
+
+li {
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px 0;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+}
+
+.contact a {
+    
+    background-color: blueviolet;
+    color: white;
+    padding: 8px 15px;
+    margin: 10px;
+    border-radius: 10px;
+   
+}
+
+.contact a:hover {
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+/* MAIN SKILL TITLE */
+.main-skill-title {
+    background: linear-gradient(to right, #8e2de2, #a445b2);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* SKILL SUB BOX */
+.skill-box {
+   
+    border: 2px solid rgb(120, 23, 210);
+    border-radius: 25px;
+
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+/* SKILL LIST */
+.skill-list {
+   
+    color: blueviolet;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
